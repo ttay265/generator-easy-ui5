@@ -1,5 +1,5 @@
 sap.ui.define([
-  "<%= namespace%>.<%=projectname%>.BaseController"
+  "<%= namespace%>/<%=projectname%>/BaseController"
 ], function(BaseController) {
   "use strict";
 
