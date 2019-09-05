@@ -13,7 +13,7 @@ describe('Basic project capabilities', function() {
 		});
 
 		it('should create the necessary ui5 files', function() {
-			return assert.file(['ui5.yaml', 'webapp/view/MainView.view.xml', 'webapp/index.html', 'webapp/manifest.json']); //incomplete list, extend if necessary
+			return assert.file(['ui5.yaml', 'webapp/view/MainView.view.xml', 'webapp/index.html', 'webapp/manifest.json', 'webapp/controller/Component.js', 'webapp/i18n/*', '']); //incomplete list, extend if necessary
 		});
 
 		it('should create the necessary cloud foundry files', function() {

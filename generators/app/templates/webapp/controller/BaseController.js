@@ -1,4 +1,4 @@
-sap.ui.define([
+uisap.ui.define([
 	"sap/ui/core/UIComponent",
 	"sap/ui/Device",
 	"<%= namespace.replace(/\./g, '/')%>/<%=projectname.replace('.', '/')%>/model/models"
